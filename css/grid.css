@@ -1,0 +1,141 @@
+/**
+ * @filename: grid.css
+ * @project: CSS-components
+ * @description: Simple two, three, or four column responsive grid system
+ * @author: Steve George, steve@pagerange.com
+ * @created_at: Sep 20, 2017
+ * @updated_at: Sep 20, 2017
+ * 
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+div.one-third {
+    width: 30%;
+    padding: 0 1.5%;
+    float: left;
+}
+
+div.two-third {
+    width: 63%;
+    padding: 0 1.5%;
+    float: left;
+}
+
+div.one-half {
+    width: 47%;
+    float: left;
+    padding: 0 1.5%;
+}
+
+div.one-quarter {
+    width: 22%;
+    padding: 0 1.5%;
+    float: left;
+}
+
+div.two-quarter {
+    width: 45%;
+    float: left;
+    padding: 0 1.5%;
+}
+
+div.three-quarter {
+    width: 72%;
+    float: left;
+    padding: 0 1.5%
+}
+
+div.full{
+    width: 97%;
+    padding: 0 1.5%;
+    float: left;
+}
+
+div.row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+
+
+/* handheld mobile devices */
+@media all and (max-width: 768px) {
+
+    div.one-third {
+        float: left;
+        width: 45%;
+    }
+    
+    div.one-half {
+        width: 95%;
+    }
+    
+    div.one-quarter {
+        width: 45%;
+    }
+    
+    div.three-quarter {
+        width: 45%;
+    }
+
+    div.two-third + div.one-third {
+        width: 45%;
+    }
+
+    div.one-third + div.two-third {
+        width: 45%;
+    }
+
+    div.two-third {
+        float: left;
+        width: 45%;
+    }
+
+    div.one-third + div.one-third:last-child {
+        float: none;
+        clear: both;
+        width: 95%;
+    }
+
+}
+
+
+/* handheld mobile devices */
+@media all and (max-width: 450px)
+{
+    div.one-quarter,
+    div.three-quarter,
+    div.one-third,
+    div.two-third,
+    div.one-half, 
+    div.full {
+        float: none;
+        clear: both;
+        width: 95%;
+    }
+
+    div.one-third + div.two-third {
+        float: none;
+        clear: both;
+        width: 95%;
+    }
+
+    div.two-third + div.one-third {
+        float: none;
+        clear: both;
+        width: 95%;
+    }
+
+}

@@ -1,4 +1,12 @@
-/* CSS-ONLY MODAL */
+/**
+ * @filename: modal.css
+ * @project: CSS-components
+ * @description: Simple two, three, or four column responsive grid system
+ * @author: Steve George, steve@pagerange.com
+ * @created_at: Sep 20, 2017
+ * @updated_at: Sep 20, 2017
+ * 
+*/
 
 .modal {
     position: absolute;
