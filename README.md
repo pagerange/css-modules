@@ -1,12 +1,15 @@
-# css-modules
+# PR CSS
 
-Set of CSS-only modules for building lightweight websites.
+This is a collection of minimal CSS-only modules to be used for building websites with a small footprint.
 
-## Modules
+This project is under construction.
 
-1. **modals** - CSS only modals.
+## The modules
+
+1. **modal.css** - CSS-only modals.
 
 ---
 
-_@updated 2017-09-20 11:12_
+_@updated 2017-09-20 11:05_
+
 

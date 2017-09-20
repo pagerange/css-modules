@@ -1,0 +1,66 @@
+/* CSS-ONLY MODAL */
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    background-color:rgba(0, 0, 0, 0.7);
+    transition: opacity 0.5s;
+}
+
+.modal:target {
+    height: 100%;
+    opacity: 1.0;
+}
+
+.modal-body header a {
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #cfcfcf;
+    padding: 0 6px;
+}
+
+.modal-body {
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    margin: 200px auto;
+    height: 0;
+    opacity: 0;
+    min-height: 200px;
+    /* border: 1px solid #cfcfcf; */
+    background: #fff; 
+}
+
+.modal-content {
+    padding: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 80%;
+}
+
+.modal:target .modal-body {
+    height: auto;
+    opacity: 1.0;
+}
+
+@media all and (max-width: 768px) {
+
+    .modal-body {
+        width: 90%;
+    }
+
+    .modal-content {
+        padding: 40px;
+        display: table-cell;
+        vertical-align: middle;
+        height: 80%;
+    }
+    
+}
