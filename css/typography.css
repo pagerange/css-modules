@@ -1,0 +1,109 @@
+/**
+ * @filename: typography.css
+ * @project: CSS-components
+ * @description: Straightforward typography
+ * @author: Steve George, steve@pagerange.com
+ * @created_at: Sep 20, 2017
+ * @updated_at: Sep 20, 2017
+ * @license: MIT
+ * 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Helvetica, Verdana, sans-serif;
+    color: #555;
+    line-height: 150%;
+}
+
+h1, h2, h3, h4, h5 {
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-bottom: .25em;
+    line-height: 120%;
+    color: #000;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+pre, code {
+    font-family: Courier, "Courier New", Console;
+    max-width: 100%;
+    display: block;
+    white-space: pre-wrap;
+    padding: 0;
+}
+
+code {
+    background: #efefef;
+    padding: 1% 3%;
+}
+
+
+a:link, a:visited {
+    color: #61add3;
+}
+
+a:hover, a:active {
+    color: #666;
+}
+
+blockquote {
+    margin: 30px;
+    padding: 10px 30px;
+    border-left: 10px solid #efefef;
+    font-size: 120%;
+    line-height:160%;
+}
+
+p code, li code, h1 code, h2 code, 
+h3 code, h4 code, h5 code {
+    display: inline;
+    padding: 0 4px;
+    color: #f00;
+}
+
+.right {
+    text-align: right;
+}
+
+p, li {
+    margin: .5em 0 .2em;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
+ul li {
+    list-style-type: disc
+}
+
+ol li {
+    list-style-type: decimal;
+}

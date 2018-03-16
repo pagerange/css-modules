@@ -1,0 +1,29 @@
+/**
+ * @filename: image.css
+ * @project: CSS-components
+ * @description: Simple image styling css
+ * @author: Steve George, steve@pagerange.com
+ * @created_at: Sep 20, 2017
+ * @updated_at: Sep 20, 2017
+ * @license: MIT
+ * 
+*/
+
+img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 1em 0;
+}
+
+
+img.left {
+    float: left;
+    margin: 0.5rem 1rem 0.5rem 0;
+}
+
+img.right {
+    float: right;
+    margin: 0.5rem 0 0.5rem 1rem;
+}

@@ -1,0 +1,54 @@
+/**
+ * @filename: form.css
+ * @project: CSS-components
+ * @description: Straightforward forms
+ * @author: Steve George, steve@pagerange.com
+ * @created_at: Sep 20, 2017
+ * @updated_at: Sep 20, 2017
+ * @license: MIT
+ * 
+*/
+
+/* Form
+---------------------------------------------- */
+
+form {
+    margin: 2em 0;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin: 1em 0 .25em;
+}
+
+input {
+    line-height: 200%;
+    padding: 0 10px;
+    width: 95%;
+}
+
+textarea {
+    width: 95%;
+    min-height: 100px;
+}
+
+button {
+    padding: 4px;
+    line-height: 150%;
+    margin: 1em 0.5em 0 0;
+}
+
+fieldset {
+    display: block;
+    padding: 20px;
+    margin: 2em 0;
+    border: 1px solid #cfcfcf;
+    position: relative;
+}
+
+legend {
+    border: 1px solid #cfcfcf;
+    padding: 5px;
+    background: #fff;
+}
