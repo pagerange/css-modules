@@ -13,46 +13,50 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 1em;
+}
+
 body {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 100%;
     font-family: "Open Sans", Arial, Helvetica, Verdana, sans-serif;
     color: #555;
-    line-height: 150%;
+    line-height: 1.5rem;
 }
 
 h1, h2, h3, h4, h5 {
     /* font-family: Georgia, "Times New Roman", Times, serif; */
-    margin-bottom: 0;
-    margin-top: 30px;
-    margin-bottom: .25em;
-    line-height: 120%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
     color: #000;
     font-weight: 500;
+    line-height: 2.5rem;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 1.7rem;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 h4 {
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 pre, code {
     font-family: Courier, "Courier New", Console;
+    font-size: 1.1rem;
     max-width: 100%;
     display: block;
     white-space: pre-wrap;
@@ -61,7 +65,7 @@ pre, code {
 
 code {
     background: #efefef;
-    padding: 1% 3%;
+    padding: 2rem 3rem;
 }
 
 
@@ -74,17 +78,17 @@ a:hover, a:active {
 }
 
 blockquote {
-    margin: 30px;
-    padding: 10px 30px;
-    border-left: 10px solid #efefef;
-    font-size: 120%;
-    line-height:160%;
+    margin: 2rem;
+    padding: .5rem 2rem;
+    border-left: .5rem solid #efefef;
+    font-size: 1.2rem;
+    line-height:1.6rem;
 }
 
 p code, li code, h1 code, h2 code, 
 h3 code, h4 code, h5 code {
     display: inline;
-    padding: 0 4px;
+    padding: 0 .5rem;
     color: #f00;
 }
 
@@ -93,11 +97,11 @@ h3 code, h4 code, h5 code {
 }
 
 p, li {
-    margin: .5em 0 .2em;
+    margin: .5rem 0 .2rem;
 }
 
 ul, ol {
-    padding-left: 30px;
+    padding-left: 2rem;
 }
 
 ul li {

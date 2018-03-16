@@ -14,11 +14,15 @@ table {
 }
 
 th, td {
-    line-height: 1.6rem;
     border: 1px solid #cfcfcf;
-    padding: 0 8px;
+    padding: 8px;
+
 }
 
 th {
     font-weight: 700;
+}
+
+caption {
+    line-height: 2.5rem;
 }
